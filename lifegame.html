@@ -1,0 +1,27 @@
+<!--
+作者：罗皓天
+班级：软件41
+名称：lifegame
+功能：完成作业并用此程序练习软件测试
+时间2016.9.26
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LifeGame</title>
+        <meta charset='utf-8'>
+        <script  type="text/javascript" src="lifegame.js"></script>
+    </head>
+    <body>
+        <canvas id="canvas" width="700" height="700"></canvas>
+        <script  type="text/javascript" src="fabric.min.js"></script>
+        <script>
+            var canvas = new fabric.Canvas('canvas');
+            canvas.renderOnAddRemove = false;
+            init();
+            drawLife();
+    		lifeTimer = setInterval(drawLife, 500);
+        </script>
+</body>
+</html>

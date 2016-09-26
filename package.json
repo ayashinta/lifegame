@@ -1,0 +1,17 @@
+{
+  "name": "lifegame-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fabric.min.js",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
